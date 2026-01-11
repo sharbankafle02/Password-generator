@@ -61,3 +61,58 @@ body{
     border-radius:5px;
     cursor:pointer;
 }
+@media(max-width:799px){
+    body{
+        width:750px;
+    }
+    .container h1 {
+        font-weight: 500;
+        font-size: 35px;
+    }
+    .display {
+        height:50px;
+        width: 500px;
+    }
+    .display input {
+        font-size: 18px;
+    }
+    .container button {
+        font-size: 16px;
+        font-weight: 200;
+        padding: 10px 20px;
+    }
+}
+@media(max-width:499px){
+    body{
+        width:350px;
+    }
+    .container h1 {
+        font-weight: 500;
+        font-size: 25px;
+    }
+    .display {
+        height:30px;
+        width: 100%;
+        margin-top: 50px;
+        margin-bottom: 30px;
+        background: #fff;
+        color: #333;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 26px 20px;
+        border-radius: 5px;
+    }
+    .display input {
+        border: 0;
+        outline: 0;
+        font-size: 16px;
+        height:20px;
+    }
+    .container button {
+        font-size: 16px;
+        font-weight: 100;
+        padding: 6px 16px;
+        height:50px;
+    }
+}
